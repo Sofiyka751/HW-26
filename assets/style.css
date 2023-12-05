@@ -21,10 +21,9 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    min-width: 400px;
-    min-height: 300px;
-    padding: 15px;
-    background-color: skyblue;
+    width: 673px;
+    height: 651px;
+    background-color: white;
     transform: translate(-50%, -50%);
   }
 
@@ -35,6 +34,7 @@
 .cont {
     display: flex;
 }
+
 
 .head {
     width: 563px;
@@ -55,8 +55,8 @@ form {
 
 .box1 {
     margin-bottom: 5px;
-    width: 557px;
-    height: 93px;
+    width: 260px;
+    height: 36px;
     border-radius: 10px;
     border: 1px solid #DCDCDC;
     background: #FFF;
@@ -64,17 +64,17 @@ form {
 
 .box2 {
     margin-bottom: 5px;
-    width: 557px;
-    height: 93px;
+    width: 260px;
+    height: 36px;
     border-radius: 10px;
     border: 1px solid #DCDCDC;
     background: #FFF;
 }
 
 .box3 {
-    margin: 5px;
-    width: 557px;
-    height: 189px;
+    margin-bottom: 5px;
+    width: 260px;
+    height: 132px;
     border-radius: 10px;
     border: 1px solid #DCDCDC;
     background: #FFF;
@@ -82,14 +82,14 @@ form {
 
 .but {
     border: none;
-    width: 218px;
-    height: 73px;
+    width: 109px;
+    height: 37px;
     flex-shrink: 0;
     border-radius: 500px;
     background: #FAD34F;
     color: #FFF;
     font-family: Apercu Arabic Pro;
-    font-size: 18px;
+    font-size: 13px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -97,20 +97,29 @@ form {
 
 .cartoon {
     position: absolute;
-    margin-left: 136px;
-    margin-top: 551px;
+    margin-left: 161px;
+    margin-top: 308px;
 }
 
 .right {
     display: flex;
+    position: absolute;
+    left: 183px;
 }
 
 .one {
     position: absolute;
 }
 
-.phot {
-    margin-left: 192px;
+.phot {    
+    margin-left: 175px;
+    width: 313px;
+    height: 462px;
+}
+
+hr {
+    margin-bottom: 5px;
+    margin-top: 44px;
 }
 
 .all_foot {
@@ -124,7 +133,7 @@ form {
 }
 
 .box1_one {
-    margin-bottom: 98px;
+    margin-bottom: 84px;
 }
 
 .inter {
